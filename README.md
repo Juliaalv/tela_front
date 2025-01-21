@@ -7,7 +7,9 @@ Este repositório contém dois arquivos de código relacionados à criação de 
 ## Sobre Mim
 
 Olá! Meu nome é **Júlia Alves Santos**, sou estudante de Engenharia de Energias Renováveis.
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white&style=social)](https://www.linkedin.com/in/seu-perfil)
+
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white&style=social)](https://www.linkedin.com/in/julialvesantos/)
 
 
 ## Arquivos no Repositório
