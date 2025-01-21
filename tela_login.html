@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <form id="loginForm">
+                <input type="text" id="username" name="email" placeholder="email" required>
+                <input type="password" id="password" name="senha" placeholder="senha" required>
+                <button type="submit">LOGIN</button>
+            </form>
+            <p class="register">Sem registro? <a href="#">Criar conta</a></p>
+            <div id="message" class="error-message"></div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+
+            const emailField = document.getElementById('username');
+            const passwordField = document.getElementById('password');
+            const messageDiv = document.getElementById('message');
+
+            const email = emailField.value.trim();
+            const password = passwordField.value;
+
+            // Regex para validação básica de email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!emailRegex.test(email)) {
+                messageDiv.textContent = 'Por favor, insira um e-mail válido.';
+                messageDiv.className = 'error-message';
+                return;
+            }
+
+            if (password.length < 6) {
+                messageDiv.textContent = 'A senha deve ter pelo menos 6 caracteres.';
+                messageDiv.className = 'error-message';
+                return;
+            }
+
+            // Simulação de envio e sucesso
+            messageDiv.textContent = 'Login realizado com sucesso!';
+            messageDiv.className = 'success-message';
+
+            // Limpar campos após sucesso
+            emailField.value = '';
+            passwordField.value = '';
+        });
+    </script>
+</body>
+</html>
