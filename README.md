@@ -6,7 +6,7 @@ Este repositório contém dois arquivos de código relacionados à criação de 
 
 ## Sobre Mim
 
-Olá! Meu nome é **Júlia Alves Santos**, sou estudante de Engenharia de Energias Renováveis. Tenho paixão por tecnologia e desenvolvimento de soluções criativas para problemas complexos. Este projeto faz parte do meu aprendizado em desenvolvimento web.
+Olá! Meu nome é **Júlia Alves Santos**, sou estudante de Engenharia de Energias Renováveis.
 
 ## Arquivos no Repositório
 
